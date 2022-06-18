@@ -9,28 +9,28 @@
 <body>
 
     <div>
-        <h1>Cadastro de Devs</h1>
-        <p>Insira suas informações</p>
+        <h1 id="titulo">Cadastro de Devs</h1>
+        <p id="subtitulo">Insira suas informações</p>
         <br>
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="grupo">
             <div>
-                <label>Nome</label>
-                <input type="text" name="nome" id="nome">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
             </div>
 
             <div>
-                <label>Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
 
         </fieldset>
 
-        <div>
-            <label>Email</label>
-            <input type="text" name="email" id="email">
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required>
         </div>
 
         <div>
@@ -57,7 +57,7 @@
             </select>
         </div>
 
-        <fieldset>
+        <fieldset class="grupo">
             <div>
                 <label>Selecione suas hard skills</label><br><br>
                 <input type="checkbox" id="tecnologia" name="tecnologia" value="HTML">
@@ -80,7 +80,7 @@
         <div>
             <br>
             <label>Conte um pouco sobre sua experiência:</label>
-            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            <textarea rows="6" style="width: 25em" id="experiencia" name="experiencia"></textarea>
         </div>
 
         <button type="submit">Concluido</button>
