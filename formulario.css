@@ -84,5 +84,7 @@ fieldset.grupo .campo{
     cursor: pointer;
 }
 
-
+#check{
+    display: inline-block;
+}
 
