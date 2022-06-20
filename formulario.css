@@ -15,6 +15,10 @@
     margin-left: 10%;
 }
 
+#check{
+    display: inline-block;
+}
+
 fieldset{
     border: 0;
 }
@@ -35,6 +39,15 @@ input, select, textarea, button{
     color: #59429D;
     border-radius: 5px;
 }
+
+.grupo:before, .grupo:after{
+    display: table;
+}
+
+.grupo:after{
+    clear: both;
+}
+
 
 
 
@@ -82,7 +95,7 @@ fieldset.grupo .campo{
     top: 90%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%)
 }
 
 .botao:hover{
@@ -91,7 +104,9 @@ fieldset.grupo .campo{
     text-shadow: none;
 }
 
-#check{
-    display: inline-block;
+.botao, select{
+    cursor: pointer;
 }
+
+
 
