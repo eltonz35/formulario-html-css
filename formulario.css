@@ -32,3 +32,13 @@ body{
 input, select, textarea, button{
     border-radius: 5px;
 }
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo{
+    margin-bottom: 0.2em;
+    color: #59429D;
+    display: block;
+}
