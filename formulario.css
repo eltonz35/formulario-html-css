@@ -33,6 +33,12 @@ body{
     justify-content: center;
 }
 
+body{
+    background-image: url(imagem.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
 input, select, textarea, button{
     font-family: sans-serif;
     font-size: 1em;
@@ -104,6 +110,7 @@ fieldset.grupo .campo{
 .botao, select{
     cursor: pointer;
 }
+
 
 
 
